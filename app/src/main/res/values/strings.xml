@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Team Fortress 2 Tic-Tac-Toe</string>
+    <string name="team_fortress_2">Team Fortress 2</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="choose">Choose your characters !</string>
+    <string name="score_y_0">Score Y :- 0</string>
+    <string name="score_x_0">Score X :- 0</string>
+    <string name="reset">New Game</string>
+    <string name="p1">P1 :</string>
+    <string name="vs">VS</string>
+    <string name="p2">: P2</string>
 </resources>
