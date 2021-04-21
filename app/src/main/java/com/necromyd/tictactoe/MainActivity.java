@@ -568,4 +568,9 @@ public class MainActivity extends AppCompatActivity {
         b9=5;
         i=0;
     }
+
+    @Override
+    public void onBackPressed() {
+        finishAffinity();
+    }
 }
