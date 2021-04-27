@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             sniper_1, sniper_2, sniper_3, sniper_win,
             scout_1, scout_2, scout_3, scout_win;
     private int p1Image, p2Image;
-    private TextView scoreX, scoreO;
+    private TextView scoreX, scoreO, nextPlayer;
     private String player1, player2;
     private MediaPlayer mediaPlayer;
     private AudioManager audioManager;
@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         player1 = intent.getStringExtra("player1");
         player2 = intent.getStringExtra("player2");
 
+        nextPlayer = findViewById(R.id.tv_nextPlayer);
+        nextPlayer.setText(player1 + " is next !");
         scoreX = findViewById(R.id.ScoreX);
         scoreO = findViewById(R.id.ScoreY);
         scoreX.setText(player1 + " : 0");
@@ -397,8 +399,10 @@ public class MainActivity extends AppCompatActivity {
 
         if (startGame.equals("X")) {
             startGame = "O";
+            nextPlayer.setText(player2 + " is next !");
         } else {
             startGame = "X";
+            nextPlayer.setText(player1 + " is next !");
         }
     }
 
