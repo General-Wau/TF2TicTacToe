@@ -1,4 +1,4 @@
-Team Fortress 2 themed Tic Tac Toe game . Features music, character voicelines and custmised play peices. Made in java as a beginner coding practice.
+Team Fortress 2 themed Tic Tac Toe game . Features music, character voicelines and customized play pieces. Made in java as a beginner coding practice.
 
 - 0.3v Base project done. TF2 theme is next to be added.
 - 0.4v Initial character select screen added, all resources added. Minor changes to the game screen.
